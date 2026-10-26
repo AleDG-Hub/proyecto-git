@@ -1,7 +1,7 @@
 # Práctica de Git – Gestión de un proyecto web
 
 **Alumno:** Alejandro Díaz Gómez
-**Repositorio remoto:** https://github.com/TU_USUARIO/proyecto-git  *(cambiar por el enlace real)*
+**Repositorio remoto:** https://github.com/AleDG-Hub/proyecto-git
 
 Objetivo: practicar los comandos básicos y algunos avanzados de Git (repositorio, commits, ramas, merge, conflictos y remotos).
 
@@ -296,12 +296,12 @@ Se ve cómo las dos ramas se separan y vuelven a unirse en el commit de merge.
 1. Entrar en https://github.com y pulsar **New repository**.
 2. Nombre: `proyecto-git`, visibilidad **Public**.
 3. **No** marcar "Add a README" (el proyecto local ya tiene historial y daría conflicto al subir).
-4. Pulsar **Create repository** y copiar la URL: `https://github.com/TU_USUARIO/proyecto-git.git`
+4. Pulsar **Create repository** y copiar la URL: `https://github.com/AleDG-Hub/proyecto-git.git`
 
 ### 7.2 Añadir el remoto y subir los cambios
 
 ```bash
-git remote add origin https://github.com/TU_USUARIO/proyecto-git.git
+git remote add origin https://github.com/AleDG-Hub/proyecto-git.git
 git remote -v
 git push -u origin main
 git push origin desarrollo nueva-funcionalidad
